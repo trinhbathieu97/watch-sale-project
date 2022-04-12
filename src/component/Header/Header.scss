@@ -1,0 +1,61 @@
+@import "../../../styles/colors";
+.Header {
+  padding: 42px 10%;
+  .Header_navbar {
+    font-family: $FontFamilyTaviraj;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar_logo {
+      margin-right: 7%;
+    }
+    .navbar_list {
+      display: flex;
+      list-style: none;
+      text-decoration: none;
+      // margin-right: 90px;
+      gap: 40px;
+      a {
+        text-decoration: none;
+        color: $ColorTextTaviraj;
+        font-style: normal;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0.02em;
+      }
+    }
+    .navbar_cart-user {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      .navbar_searach {
+        width: 25px;
+        height: 25px;
+      }
+      .navbar_login {
+        display: flex;
+        align-items: center;
+        .user {
+          width: 17px;
+          height: 21px;
+          margin-right: 10px;
+        }
+        .navbar_login-text {
+          font-size: 18px;
+        }
+      }
+      .navbar_cart {
+        button {
+          width: 46px;
+          height: 46px;
+          background-color: $BackgroundImg;
+          border: none;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
