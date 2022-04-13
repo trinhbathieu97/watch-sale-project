@@ -1,0 +1,20 @@
+@import "../../../styles/colors";
+.Instagram {
+  padding: 0 8px;
+  margin-top: 200px;
+  .Instagram_title {
+    position: relative;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    &::before {
+      position: absolute;
+      content: "";
+      height: 1px;
+      width: 10%;
+      background-color: $ColorTextTaviraj;
+      bottom: -8px;
+    }
+  }
+}

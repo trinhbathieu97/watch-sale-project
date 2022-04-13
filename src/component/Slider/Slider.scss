@@ -1,15 +1,16 @@
 @import "../../../styles/colors";
 
-.Container {
+.slider {
   margin-top: 30px;
-  padding: 0 10%;
+  padding: 0 8%;
   font-family: $FontFamilyTaviraj;
   color: $ColorTextTaviraj;
-  .product-advertisement {
+  margin-bottom: 120px;
+  .slider_product-advertisement {
     display: flex;
     background-color: $BackgroundImg;
     position: relative;
-    .img_product-advertisement {
+    .slider_img_product {
       width: 35%;
       position: relative;
       img {
@@ -19,10 +20,10 @@
         width: 85%;
       }
     }
-    .detail_product-advertisement {
+    .slider_detail_product {
       width: 53%;
       text-align: start;
-      .name_Product {
+      .slider_name-Product {
         height: 160px;
         font-size: 60px;
         line-height: 80px;
@@ -43,7 +44,7 @@
           width: 20%;
         }
       }
-      .product_description {
+      .slider_product-description {
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
@@ -52,7 +53,7 @@
         color: $ColorTextTaviraj;
         margin-bottom: 8px;
       }
-      .product_Discover {
+      .slider_product-Discover {
         color: $ColorTextTaviraj;
         width: fit-content;
         margin-bottom: 44px;
@@ -114,13 +115,6 @@
         border: none;
         margin-left: 20px;
       }
-    }
-  }
-  .vector {
-    position: absolute;
-    img {
-      width: 736px;
-      height: 264px;
     }
   }
 }

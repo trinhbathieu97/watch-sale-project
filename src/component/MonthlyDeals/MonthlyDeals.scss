@@ -1,0 +1,109 @@
+@import "../../../styles/colors";
+
+.monthlyDeals {
+  padding: 0 8%;
+  color: $ColorTextTaviraj;
+  font-family: $FontFamilyTaviraj;
+  margin-bottom: 110px;
+  .monthlyDeals_title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: start;
+    position: relative;
+    margin-bottom: 110px;
+    &::before {
+      position: absolute;
+      content: "";
+      height: 1px;
+      width: 10%;
+      background-color: $ColorTextTaviraj;
+      bottom: -8px;
+    }
+  }
+  .monthlyDeals_product {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: nowrap;
+    .info_product {
+      width: 25%;
+      margin: 0 15px;
+      &:hover {
+        .Cart_monthly {
+          display: block;
+        }
+      }
+      .info_product-img {
+        height: 200px;
+        background-color: #fff;
+        img {
+          width: 100%;
+          padding: 0 20px;
+          margin-top: -40px;
+        }
+      }
+      .info_product-pricer {
+        background-color: #fff;
+        text-align: start;
+        padding: 0 20px;
+        .name {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          margin-bottom: 8px;
+        }
+        .vbuot {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+        .pricer_sale {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          position: relative;
+          width: fit-content;
+          margin-bottom: 5px;
+          &::before {
+            position: absolute;
+            content: "";
+            height: 1px;
+            top: 50%;
+            width: 100%;
+            background-color: $BackgroundButton;
+          }
+        }
+        .pricer {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 32px;
+          padding-bottom: 28px;
+        }
+      }
+      .Cart_monthly {
+        display: none;
+        .add_cart {
+          padding-bottom: 20px;
+          display: flex;
+          align-items: center;
+          .button_tim {
+            width: 39px;
+            height: 39px;
+            border: 1px solid $BackgroundButton;
+            margin-right: 10px;
+            background-color: #fff;
+          }
+          .button_cart {
+            height: 39px;
+            width: 158px;
+            background: $BackgroundButton;
+            color: #fff;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
