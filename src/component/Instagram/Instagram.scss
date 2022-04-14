@@ -1,13 +1,16 @@
 @import "../../../styles/colors";
 .Instagram {
-  padding: 0 8px;
+  padding: 0 8%;
   margin-top: 200px;
+  font-family: $FontFamilyTaviraj;
   .Instagram_title {
     position: relative;
     font-weight: 500;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
+    text-align: start;
+    margin-bottom: 40px;
     &::before {
       position: absolute;
       content: "";
@@ -15,6 +18,15 @@
       width: 10%;
       background-color: $ColorTextTaviraj;
       bottom: -8px;
+    }
+  }
+  .Instagram_img-item {
+    display: flex;
+    .img {
+      width: 20%;
+      img {
+        width: 100%;
+      }
     }
   }
 }

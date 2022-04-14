@@ -1,0 +1,153 @@
+@import "../../../styles/colors";
+.Detail {
+  font-family: $FontFamilyTaviraj;
+  letter-spacing: 0.02em;
+  .Detail_navbar {
+    padding: 0 8%;
+    margin-bottom: 45px;
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        margin-right: 10px;
+        .Way_Kambas-Mini-Ebony {
+          color: $BackgroundButton;
+        }
+        a {
+          text-decoration: none;
+          color: #333333;
+          span {
+            margin: 0 5px;
+          }
+        }
+      }
+    }
+  }
+  .Detail_Product {
+    display: flex;
+    padding-right: 8%;
+    .Detail_img-items {
+      width: 55%;
+      position: relative;
+      .img_product-big {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        img {
+          width: 352px;
+          height: 481px;
+        }
+      }
+      .Detail_img-list {
+        width: 80%;
+        background-color: $BackgroundImg;
+
+        .img-list {
+          padding: 20px;
+          div {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+    .Detail_Name-pricer {
+      width: 45%;
+      padding-left: 40px;
+      text-align: start;
+      h1 {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 80px;
+        padding-top: 20px;
+      }
+      .pricer_sale {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: $ColorTextNunito;
+        width: fit-content;
+        position: relative;
+        margin-bottom: 5px;
+        &::before {
+          position: absolute;
+          content: "";
+          height: 1px;
+          top: 50%;
+          width: 100%;
+          background-color: $BackgroundButton;
+          left: 0;
+        }
+      }
+      .pricer {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 41px;
+        color: #333333;
+        margin-bottom: 16px;
+      }
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 8px;
+      }
+
+      .type_color {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+      .addtoCart_Detail {
+        display: flex;
+        align-items: center;
+        .prever {
+          width: 30px;
+          height: 30px;
+          border: 1px solid;
+          border-color: $BackgroundButton;
+          margin-right: 16px;
+        }
+        .quantity {
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 61px;
+        }
+        .next {
+          width: 30px;
+          height: 30px;
+          color: #fff;
+          background-color: $BackgroundButton;
+          border: none;
+          margin-left: 16px;
+          margin-right: 36px;
+        }
+        .Add_to-cart {
+          display: flex;
+          align-items: center;
+          background-color: $BackgroundButton;
+          color: #fff;
+          border: none;
+          width: 208px;
+          height: 62px;
+          justify-content: center;
+          p {
+            padding-left: 16px;
+          }
+        }
+        .logo_Cici {
+          width: 140px;
+          height: 62px;
+          border: 1px solid $BackgroundButton;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}

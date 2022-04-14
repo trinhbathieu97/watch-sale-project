@@ -1,3 +1,99 @@
+@import "../../../styles/colors";
 .Footer {
   height: 500px;
+  margin-top: 75px;
+  font-family: $FontFamilyTaviraj;
+  .Footer_trademark {
+    padding: 0 13%;
+    background-color: $BackgroundApp;
+    .trademark-list {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 40px;
+      padding-bottom: 23px;
+      .trademark-item {
+        width: 20%;
+      }
+    }
+  }
+  .ContactInfo {
+    background-color: $BackgroundButton;
+    color: #fff;
+    padding-top: 57px;
+    padding-bottom: 75px;
+    .ContactInfo_list {
+      margin: 0 8%;
+      display: flex;
+
+      .ContactInfo_list-item {
+        text-align: start;
+        width: 25%;
+        padding-right: 30px;
+
+        .ContactInfo_list-Address {
+          margin-top: 27px;
+          margin-bottom: 5px;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 34px;
+          letter-spacing: 0.02em;
+        }
+        p {
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 27px;
+          letter-spacing: 0.03em;
+        }
+        .ContactInfo_title {
+          position: relative;
+          font-weight: 600;
+          font-size: 26px;
+          letter-spacing: 0.02em;
+          text-align: start;
+          margin-bottom: 32px;
+
+          &::before {
+            position: absolute;
+            content: "";
+            height: 0.8px;
+            width: 20%;
+            background-color: #fff;
+            bottom: -3px;
+          }
+        }
+        .Phone {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          .Phone_text {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 34px;
+            letter-spacing: 0.02em;
+            width: 40%;
+          }
+          .Phone_number {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            padding-right: 30px;
+          }
+        }
+        .ContactInfo_list-link {
+          list-style: none;
+          li {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 0.03em;
+          }
+        }
+        .Phone_icon {
+          display: flex;
+          gap: 25px;
+          margin-top: 24px;
+        }
+      }
+    }
+  }
 }

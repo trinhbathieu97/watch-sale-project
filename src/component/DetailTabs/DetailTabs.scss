@@ -1,0 +1,47 @@
+@import "../../../styles/colors";
+
+.Tabs {
+  margin-top: 70px;
+  letter-spacing: 0.02em;
+  font-family: $FontFamilyTaviraj;
+  .Tabs_Detail {
+    padding: 0 14%;
+    .ant-tabs-tab {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 32px;
+      color: #999999;
+    }
+    .Detail_list-text {
+      text-align: start;
+      margin-top: 40px;
+      .list_conten {
+        margin-bottom: 24px;
+        div {
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 32px;
+          margin-bottom: 8px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          color: #555555;
+          font-family: $FontFamilyNunito;
+        }
+      }
+    }
+  }
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: $BackgroundButton !important;
+  text-shadow: 0 0 0.25px currentcolor;
+}
+.ant-tabs-ink-bar {
+  background-color: $BackgroundButton !important;
+  height: 1.5px !important;
+}
+.ant-tabs-nav-list {
+  gap: 25px;
+}
