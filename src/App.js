@@ -4,6 +4,7 @@ import Container from "./component/Container/Container";
 import Footer from "./component/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Detail from "./component/Detail/Detail";
+import CheckOut from "./component/CheckOut/CheckOut";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Container />} />
         <Route path="/detail" element={<Detail />} />
+        <Route path="/checkout" element={<CheckOut />} />
       </Routes>
 
       <Footer />

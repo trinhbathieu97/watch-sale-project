@@ -1,0 +1,134 @@
+@import "../../../styles/colors";
+
+.CheckOut {
+  padding: 0 8%;
+  font-family: $FontFamilyTaviraj;
+  letter-spacing: 0.02em;
+  .CheckOut_hitory {
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .boder {
+      width: 20%;
+      border-bottom: 2px solid #999999;
+    }
+    .icon_checkOut {
+      div {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #d84727;
+      }
+    }
+    .icon_checkOut-of {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+
+      color: #999999;
+    }
+  }
+  .Detail_checkOut {
+    margin-top: 46px;
+    display: flex;
+
+    .Detail_Order {
+      width: 50%;
+      margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+
+      .Detail_Order-pricer {
+        background-color: #fff;
+        padding: 40px 32px 32px 32px;
+        .Detail_Order-title {
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 48px;
+          margin-bottom: 40px;
+        }
+        .Detail_Order-subtotal {
+          display: flex;
+          .Order_name-code {
+            width: 50%;
+            p {
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 60px;
+              letter-spacing: 0.03em;
+              color: #333333;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .total_money {
+        display: flex;
+        border-top: 1px solid;
+        padding-top: 20px;
+        p {
+          width: 50%;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 60px;
+          letter-spacing: 0.03em;
+          color: #333333;
+          margin-bottom: 0;
+        }
+        h3 {
+          width: 50%;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 60px;
+          letter-spacing: 0.03em;
+          color: #333333;
+        }
+      }
+    }
+    .Detail_address {
+      width: 50%;
+      margin-left: 15px;
+      text-align: start;
+      padding: 40px 32px 32px 32px;
+      background-color: #fff;
+      .Detail_address-title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 40px;
+      }
+      .info_address {
+        margin-bottom: 24px;
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: 0.03em;
+          color: #000000;
+          margin-bottom: 8px;
+        }
+        input {
+          width: 100%;
+          font-size: 20px;
+          border: none;
+          border-bottom: 1px solid;
+          outline: 0;
+        }
+        select {
+          width: 100%;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: 0.03em;
+          color: #333333;
+          border: none;
+          outline: 0;
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  }
+}

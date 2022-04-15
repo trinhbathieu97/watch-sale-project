@@ -1,8 +1,9 @@
 @import "../../../styles/colors";
 .RecentNews {
   padding-left: 8%;
+  font-family: $FontFamilyTaviraj;
   .RecentNews_title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
@@ -40,9 +41,8 @@
         font-size: 36px;
         line-height: 48px;
         margin-bottom: 45px;
-
         letter-spacing: 0.02em;
-
+        width: 90%;
         color: #333333;
       }
       button {
@@ -75,10 +75,11 @@
         position: absolute;
         left: 0;
         top: 65px;
-        width: 80%;
+        width: 75%;
         // height: 450px;
         img {
           width: 100%;
+          height: 500px;
         }
       }
     }

@@ -15,9 +15,9 @@
       position: relative;
       img {
         position: absolute;
-        bottom: -60px;
+        bottom: -65px;
         left: 0;
-        width: 85%;
+        width: 80%;
       }
     }
     .slider_detail_product {
@@ -31,6 +31,7 @@
         margin-bottom: 24px;
         letter-spacing: 0.02em;
         margin-top: 56px;
+        width: 85%;
 
         ::before {
           position: absolute;
@@ -52,13 +53,14 @@
         font-family: $FontFamilyNunito;
         color: $ColorTextTaviraj;
         margin-bottom: 8px;
+        width: 85%;
       }
       .slider_product-Discover {
         color: $ColorTextTaviraj;
         width: fit-content;
         margin-bottom: 44px;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 27px;
         letter-spacing: 0.03em;
         border-bottom: 1px solid;

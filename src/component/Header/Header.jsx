@@ -4,7 +4,14 @@ import logo from "../../imgApp/logoMATOA.svg";
 import Cart from "../../imgApp/Cart.svg";
 import Search from "../../imgApp/search.svg";
 import User from "../../imgApp/user.svg";
+import ModalCart from "../ModalCart/ModalCart";
+import { useState } from "react";
 const Header = () => {
+  const [visible, setVisible] = useState(false);
+
+  const Open = () => {
+    setVisible(!visible);
+  };
   return (
     <div className="Header">
       <div className="Header_navbar">
@@ -36,12 +43,13 @@ const Header = () => {
             <div className="navbar_login-text">Log In</div>
           </div>
           <div className="navbar_cart">
-            <button>
+            <button onClick={Open}>
               <img src={Cart} alt="" />
             </button>
           </div>
         </div>
       </div>
+      <ModalCart visible={visible} setVisible={setVisible} />
     </div>
   );
 };

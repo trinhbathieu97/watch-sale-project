@@ -6,7 +6,7 @@
   font-family: $FontFamilyTaviraj;
   margin-bottom: 110px;
   .monthlyDeals_title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
@@ -35,7 +35,6 @@
         }
       }
       .info_product-img {
-        // height: 200px;
         padding-bottom: 32px;
         background-color: #fff;
         img {
@@ -71,7 +70,7 @@
             position: absolute;
             content: "";
             height: 1px;
-            top: 50%;
+            top: 42%;
             width: 100%;
             background-color: $BackgroundButton;
           }

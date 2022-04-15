@@ -47,7 +47,7 @@
     flex-direction: column;
     justify-content: end;
     .Testimonials_name {
-      font-weight: 600;
+      font-weight: 500;
       font-size: 36px;
       line-height: 40px;
       letter-spacing: 0.02em;
@@ -69,6 +69,7 @@
       letter-spacing: 0.03em;
       font-family: $FontFamilyNunito;
       margin-bottom: 32px;
+      width: 90%;
     }
     .Testimonials_type {
       font-style: normal;

@@ -1,8 +1,8 @@
 @import "../../../styles/colors";
 .Header {
   padding: 42px 8%;
+  font-family: $FontFamilyTaviraj;
   .Header_navbar {
-    font-family: $FontFamilyTaviraj;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,7 +19,7 @@
       a {
         text-decoration: none;
         color: $ColorTextTaviraj;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 400;
         line-height: 34px;
         letter-spacing: 0.02em;
@@ -42,7 +42,7 @@
           margin-right: 10px;
         }
         .navbar_login-text {
-          font-size: 18px;
+          font-size: 19px;
         }
       }
       .navbar_cart {

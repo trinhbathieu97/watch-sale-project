@@ -29,9 +29,12 @@
         text-align: start;
         width: 25%;
         padding-right: 30px;
+        img {
+          padding-top: 8px;
+        }
 
         .ContactInfo_list-Address {
-          margin-top: 27px;
+          margin-top: 30px;
           margin-bottom: 5px;
           font-weight: 500;
           font-size: 22px;
@@ -40,17 +43,18 @@
         }
         p {
           font-weight: 300;
-          font-size: 18px;
+          font-size: 16px;
           line-height: 27px;
           letter-spacing: 0.03em;
+          margin: 0;
         }
         .ContactInfo_title {
           position: relative;
-          font-weight: 600;
-          font-size: 26px;
+          font-weight: 500;
+          font-size: 25px;
           letter-spacing: 0.02em;
           text-align: start;
-          margin-bottom: 32px;
+          margin-bottom: 20px;
 
           &::before {
             position: absolute;
@@ -74,7 +78,7 @@
           }
           .Phone_number {
             font-weight: 400;
-            font-size: 18px;
+            font-size: 16px;
             line-height: 32px;
             padding-right: 30px;
           }
@@ -83,7 +87,7 @@
           list-style: none;
           li {
             font-weight: 400;
-            font-size: 18px;
+            font-size: 16px;
             line-height: 32px;
             letter-spacing: 0.03em;
           }

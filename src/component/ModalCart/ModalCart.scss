@@ -1,0 +1,189 @@
+@import "../../../styles/colors";
+.list_modal-cart {
+  padding: 0 30px;
+  font-family: $FontFamilyTaviraj;
+  .Cart_modal-item {
+    display: flex;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+    .modal_item-imgPricer {
+      width: 50%;
+      display: flex;
+      .item_img {
+        width: 40%;
+        background-color: $BackgroundImg;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .item_payment {
+        width: 60%;
+        padding-left: 30px;
+        h4 {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+        }
+        .modal_pricer-sale {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          position: relative;
+          width: fit-content;
+          margin-bottom: 5px;
+          color: $ColorTextNunito;
+          &::before {
+            position: absolute;
+            content: "";
+            height: 1px;
+            top: 42%;
+            width: 100%;
+            background-color: $BackgroundButton;
+          }
+        }
+        h3 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 32px;
+        }
+        .Custom {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.03em;
+          color: #555555;
+          padding-bottom: 0;
+        }
+        .Happy {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.03em;
+          color: #555555;
+        }
+      }
+    }
+    .modal_item-payment {
+      text-align: end;
+      width: 50%;
+      border-bottom: 1px solid;
+      h5 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: $ColorTextTaviraj;
+      }
+      select {
+        height: 42px;
+        width: 50%;
+        font-size: 16px;
+        margin-bottom: 35px;
+      }
+      .modal_quantity {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 30px;
+        .next_prven {
+          height: 30px;
+          width: 30px;
+          color: #fff;
+          background-color: $BackgroundButton;
+          border: none;
+          font-size: 20px;
+        }
+        .quantity_item {
+          margin: 0;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: 0.03em;
+        }
+        h3 {
+          margin: 0;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: 0.02em;
+          color: $ColorTextTaviraj;
+        }
+        .Modal_delete {
+          width: 36px;
+          height: 36px;
+          border: 1px solid $BackgroundButton;
+          background-color: #fff;
+          font-size: 20px;
+          color: $BackgroundButton;
+        }
+      }
+    }
+  }
+  .KodePromo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    .KodePromo_voucher {
+      display: flex;
+      align-items: baseline;
+      h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      input {
+        border-color: $ColorTextNunito;
+
+        font-size: 20px;
+        padding-left: 16px;
+        margin: 0 20px;
+      }
+    }
+    .KodePromo_voucher-price {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .Subtotal {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin-right: 40px;
+      }
+      .price_item {
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          position: relative;
+          width: fit-content;
+          margin-bottom: 5px;
+          color: $ColorTextNunito;
+          &::before {
+            position: absolute;
+            content: "";
+            height: 1px;
+            top: 42%;
+            width: 100%;
+            background-color: $BackgroundButton;
+          }
+        }
+        h3 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+  .modal_chekout {
+    width: 100%;
+    background-color: $BackgroundButton;
+    color: #fff;
+    border: none;
+    height: 68px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

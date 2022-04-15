@@ -10,6 +10,7 @@ import type2 from "../../imgApp/detail_type2.png";
 import cartDetail from "../../imgApp/cart_container.svg";
 import logoCici from "../../imgApp/cici.svg";
 import DetailTabs from "../DetailTabs/DetailTabs";
+import DetailProduct from "../DetailProduct/DetailProduct";
 
 const Detail = () => {
   return (
@@ -88,6 +89,7 @@ const Detail = () => {
         </div>
       </div>
       <DetailTabs />
+      <DetailProduct />
     </div>
   );
 };
