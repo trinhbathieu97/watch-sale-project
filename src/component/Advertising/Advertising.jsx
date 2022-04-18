@@ -10,7 +10,9 @@ const Advertising = () => {
           <div>
             Luxurious <span>Eyewear</span>
           </div>
-          <p>See the beauty of exotic world with the luxurious glasses</p>
+          <p>
+            See the beauty of exotic world with the <br /> luxurious glasses
+          </p>
         </div>
         <div className="discover_Now">
           <div className="discover_node">
@@ -26,7 +28,10 @@ const Advertising = () => {
           <div>
             Comfortable <span> Watches</span>
           </div>
-          <p>Feels the balancing function and beauty in our wooden watches</p>
+          <p>
+            Feels the balancing function and beauty in <br />
+            our wooden watches
+          </p>
         </div>
         <div className="discover_Now">
           <div className="discover_node">

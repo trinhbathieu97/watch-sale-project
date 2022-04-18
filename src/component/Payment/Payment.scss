@@ -1,0 +1,186 @@
+@import "../../../styles/colors";
+.Payment {
+  padding: 0 8%;
+  font-family: $FontFamilyTaviraj;
+  letter-spacing: 0.02em;
+  .Payment_hitory {
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .boder {
+      width: 20%;
+      border-bottom: 2px solid #999999;
+    }
+    .icon_Payment {
+      div {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #999999;
+      }
+    }
+    .icon_Payment-of {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+
+      color: red;
+    }
+  }
+
+  .Detail_checkOut {
+    margin-top: 46px;
+    display: flex;
+
+    .Detail_Order {
+      width: 50%;
+      margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+
+      .Detail_Order-pricer {
+        background-color: #fff;
+        padding: 40px 32px 32px 32px;
+        .Detail_Order-title {
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 48px;
+          margin-bottom: 40px;
+        }
+        .Detail_Order-subtotal {
+          display: flex;
+          .Order_name-code {
+            width: 50%;
+            p {
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 60px;
+              letter-spacing: 0.03em;
+              color: #333333;
+              margin-bottom: 0;
+            }
+          }
+        }
+        .total_money {
+          display: flex;
+          border-top: 1px solid;
+          padding-top: 20px;
+          margin-top: 46px;
+          p {
+            width: 50%;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 60px;
+            letter-spacing: 0.03em;
+            color: #333333;
+            margin-bottom: 0;
+          }
+          h3 {
+            width: 50%;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 60px;
+            letter-spacing: 0.03em;
+            color: #333333;
+            margin: 0;
+          }
+        }
+      }
+      .Payment_Detail {
+        margin-top: 30px;
+        padding: 32px;
+        background-color: #fff;
+        .Payment_Detail-time {
+          margin-bottom: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          div {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+
+            color: #333333;
+          }
+          p {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 48px;
+            margin: 0;
+
+            color: #d93f3f;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          font-family: "Nunito";
+          letter-spacing: 0.03em;
+          color: #333333;
+        }
+      }
+    }
+    .Payment_Order-Detail {
+      width: 50%;
+      padding-left: 15px;
+      text-align: start;
+      background-color: #ffff;
+      .Order_Detail {
+        padding: 40px 32px 32px 32px;
+        .Order_Detail-title {
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 48px;
+          margin-bottom: 40px;
+        }
+        .Order_Number {
+          display: flex;
+          margin-bottom: 24px;
+          .Order_Number-item {
+            width: 40%;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+            color: #333333;
+          }
+          .Order_Number-detail {
+            width: 60%;
+            .Number_detail-IDR {
+              font-size: 16px;
+              margin: 0;
+            }
+            .Number_detail-time {
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 32px;
+              color: #333333;
+            }
+            .Order_Number-detail-singlenumber {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              div {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+              }
+              .Order_Number-copy {
+                color: red;
+              }
+            }
+            p {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              margin-top: 8px;
+              color: #777777;
+            }
+          }
+        }
+      }
+    }
+  }
+}

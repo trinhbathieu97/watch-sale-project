@@ -26,9 +26,12 @@
     margin: 0 -15px;
     display: flex;
     flex-wrap: nowrap;
+    height: 400px;
+
     .info_product {
       width: 25%;
       margin: 0 15px;
+
       &:hover {
         .Cart_monthly {
           display: block;

@@ -1,8 +1,9 @@
 import React from "react";
 import "./ModalCart.scss";
-import { Modal, Button } from "antd";
+import { Modal } from "antd";
 import CartImg_1 from "../../imgApp/modal_cart1.png";
 import { DeleteOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 const ModalCart = ({ visible, setVisible }) => {
   return (
@@ -94,7 +95,11 @@ const ModalCart = ({ visible, setVisible }) => {
               </div>
             </div>
           </div>
-          <button className="modal_chekout">Checkout</button>
+          <Link to="/checkout">
+            <button className="modal_chekout" onClick={() => setVisible(false)}>
+              Checkout
+            </button>
+          </Link>
         </div>
       </Modal>
     </div>

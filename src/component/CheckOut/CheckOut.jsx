@@ -3,7 +3,7 @@ import "./CheckOut.scss";
 import checkOut from "../../imgApp/CheckOut.png";
 import playment from "../../imgApp/PlayMent.png";
 import conmfin from "../../imgApp/Comfim.png";
-import { Input } from "antd";
+import { Link } from "react-router-dom";
 
 const CheckOut = () => {
   return (
@@ -15,7 +15,10 @@ const CheckOut = () => {
         </div>
         <div className="boder"></div>
         <div className="icon_checkOut-of">
-          <img src={playment} alt="" />
+          <Link to="/payment">
+            {" "}
+            <img src={playment} alt="" />{" "}
+          </Link>
           <div>2. Payment</div>
         </div>
         <div className="boder"></div>
@@ -49,50 +52,63 @@ const CheckOut = () => {
           </div>
           <div style={{ opacity: "0" }}>.</div>
         </div>
-        <div className="Detail_address">
-          <div className="Detail_address-title">Billing Address</div>
-          <div className="info_address">
-            <p>Fullname</p>
-            <input type="text" placeholder="Ex: Rasyidin Arsyad Nasution" />
-          </div>
-          <div className="info_address">
-            <p>Email Address</p>
-            <input type="text" placeholder="Ex: rasyid.arsyad@gmail.com" />
-          </div>
-          <div className="info_address">
-            <p>Phone Number</p>
-            <input type="text" placeholder="Ex: 089111888999" />
-          </div>
-          <div className="info_address">
-            <p>Shipping Address</p>
-            <input
-              type="text"
-              placeholder="Ex: Patriot Street Number 666, Ngaklik, Sleman"
-            />
-          </div>
-          <div className="info_address">
-            <p>Country</p>
-            <select>
-              <option>United State of America (USA)</option>
-            </select>
-          </div>
-          <div className="info_address">
-            <p>State/Province</p>
-            <select>
-              <option>California</option>
-            </select>
-          </div>
-          <div className="info_address">
-            <div>
+        <div className="Address">
+          <div className="Detail_address">
+            <div className="Detail_address-title">Billing Address</div>
+            <div className="info_address">
+              <p>Fullname</p>
+              <input type="text" placeholder="Ex: Rasyidin Arsyad Nasution" />
+            </div>
+            <div className="info_address">
+              <p>Email Address</p>
+              <input type="text" placeholder="Ex: rasyid.arsyad@gmail.com" />
+            </div>
+            <div className="info_address">
+              <p>Phone Number</p>
+              <input type="text" placeholder="Ex: 089111888999" />
+            </div>
+            <div className="info_address">
+              <p>Shipping Address</p>
+              <input
+                type="text"
+                placeholder="Ex: Patriot Street Number 666, Ngaklik, Sleman"
+              />
+            </div>
+            <div className="info_address">
+              <p>Country</p>
+              <select>
+                <option>United State of America (USA)</option>
+              </select>
+            </div>
+            <div className="info_address">
               <p>State/Province</p>
               <select>
                 <option>California</option>
               </select>
             </div>
-            <div>
-              <p>State/Province</p>
-              <input type="text" />
+            <div className="info_address info_City-Zip ">
+              <div className="info_address-City">
+                <p>State/Province</p>
+                <select>
+                  <option>California</option>
+                </select>
+              </div>
+              <div className="Zip_Code">
+                <p>State/Province</p>
+                <input type="text" placeholder="Ex: 94024" />
+              </div>
             </div>
+            <div className="info_address">
+              <p>Choose Courier</p>
+              <select>
+                <option>DHL</option>
+              </select>
+            </div>
+          </div>
+          <div className="PlaceMyOrder">
+            <button className="Continue_Shopping">Continue Shopping</button>
+
+            <button className="Place_My-Order">Place My Order</button>
           </div>
         </div>
       </div>

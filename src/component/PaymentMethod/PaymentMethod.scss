@@ -1,0 +1,85 @@
+@import "../../../styles/colors";
+.PaymentMethod_All {
+  .PaymentMethod {
+    text-align: start;
+    padding: 24px 32px;
+    letter-spacing: 0.02em;
+    background-color: #fff;
+    margin-top: 30px;
+    font-family: $FontFamilyTaviraj;
+
+    .PaymentMethod_title {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 48px;
+      color: $ColorTextTaviraj;
+      margin-bottom: 40px;
+    }
+    .PaymentMethod_list {
+      .PaymentMethod_cicilan {
+        display: flex;
+        margin-bottom: 40px;
+        .PaymentMethod_cicilan-item {
+          width: 25%;
+          .cicilan_item-radio {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            input {
+              height: 24px;
+              width: 24px;
+            }
+            span {
+              font-size: 20px;
+              margin-left: 16px;
+            }
+          }
+          .cicilan_item-img {
+            padding-left: 40px;
+          }
+        }
+      }
+      .PaymentMethod_credit-cart {
+        display: flex;
+        .PaymentMethod_credit-itemS {
+          width: 60%;
+        }
+        .PaymentMethod_credit-item {
+          width: 20%;
+        }
+        .credit_item-radio {
+          display: flex;
+          align-items: center;
+          display: flex;
+          align-items: center;
+          input {
+            height: 24px;
+            width: 24px;
+          }
+          span {
+            font-size: 20px;
+            margin-left: 16px;
+          }
+        }
+        .credit_item-img {
+          padding-left: 40px;
+          .credit_item-imgX3 {
+            padding-right: 23px;
+          }
+        }
+      }
+    }
+  }
+  .Proceed_Payment {
+    text-align: end;
+    margin-top: 40px;
+    button {
+      width: 250px;
+      height: 61px;
+      background-color: $BackgroundButton;
+      color: #fff;
+      font-size: 20px;
+      border: none;
+    }
+  }
+}

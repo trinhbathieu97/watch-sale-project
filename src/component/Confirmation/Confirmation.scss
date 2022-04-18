@@ -1,0 +1,156 @@
+@import "../../../styles/colors";
+.Confirmation {
+  padding: 0 8%;
+  font-family: $FontFamilyTaviraj;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: $ColorTextTaviraj;
+  .Payment_hitory {
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    .boder {
+      width: 20%;
+      border-bottom: 2px solid #999999;
+    }
+    .icon_Payment {
+      div {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #999999;
+      }
+    }
+    .icon_Payment-of {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+
+      color: red;
+    }
+  }
+  .Confirmed_Order {
+    display: flex;
+
+    .Confirmed_Order-img {
+      width: 50%;
+      margin-right: 15px;
+      background-color: #fff;
+      padding-top: 65px;
+      padding-bottom: 45px;
+      .Order_img-item {
+        max-width: 367px;
+        margin: 0 auto;
+        img {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        h3 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+        }
+        p {
+          font-family: "Nunito";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 70px;
+        }
+        button {
+          width: 100%;
+          height: 68px;
+          background-color: $BackgroundApp;
+          color: #ffff;
+          border: none;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 32px;
+        }
+      }
+    }
+    .Confirmed_Order-payment {
+      width: 50%;
+      text-align: start;
+      background-color: #fff;
+      margin-left: 15px;
+      padding: 32px;
+      .Order_payment-days {
+        display: flex;
+        margin-bottom: 32px;
+        .payment_days-img {
+          display: flex;
+          align-items: center;
+          padding-right: 42px;
+          p {
+            margin: 0;
+            padding-left: 8px;
+          }
+        }
+      }
+      .payment_Way-Kambas {
+        text-align: start;
+        h3 {
+          font-size: 20px;
+          line-height: 32px;
+          color: $ColorTextTaviraj;
+          margin: 0;
+        }
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 32px;
+          color: $ColorTextNunito;
+        }
+      }
+      .Subtotal {
+        display: flex;
+        h3 {
+          width: 50%;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 48px;
+          margin: 0;
+        }
+      }
+      .Grand_Total {
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        border-top: 1px solid #999999;
+        border-bottom: 1px solid #999999;
+        padding: 20px 0;
+        h3 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 60px;
+          width: 50%;
+          margin: 0;
+        }
+        h1 {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 60px;
+          width: 50%;
+          margin: 0;
+        }
+      }
+      .Shipping_Address {
+        display: flex;
+        margin-top: 16px;
+        h3 {
+          width: 45%;
+          font-size: 20px;
+          line-height: 32px;
+        }
+        h4 {
+          width: 55%;
+          font-size: 20px;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+}

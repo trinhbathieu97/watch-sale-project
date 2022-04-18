@@ -25,9 +25,11 @@ const Testimonials = () => {
         <div className="Testimonials_text">
           <div className="Testimonials_name">Testimonials</div>
           <p className="Testimonials_introduce">
-            Loving my new KAILI watch from @matoa_id, the first ever Indonesian
-            watch local brand that uses wood as their main material. Like any
-            other Matoa products, KAILI is inspired by Indonesian heritage.
+            Loving my new KAILI watch from @matoa_id, the first ever
+            <br /> Indonesian watch local brand that uses wood as their main{" "}
+            <br />
+            material. Like any other Matoa products, KAILI is inspired by <br />
+            Indonesian heritage.
           </p>
           <div className="Testimonials_type">Gita Savitri</div>
           <p className="Testimonials_author">Content Creator/Influencer</p>

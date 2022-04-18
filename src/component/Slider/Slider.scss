@@ -6,6 +6,7 @@
   font-family: $FontFamilyTaviraj;
   color: $ColorTextTaviraj;
   margin-bottom: 120px;
+  letter-spacing: 0.02em;
   .slider_product-advertisement {
     display: flex;
     background-color: $BackgroundImg;
@@ -15,13 +16,13 @@
       position: relative;
       img {
         position: absolute;
-        bottom: -65px;
-        left: 0;
-        width: 80%;
+        bottom: -75px;
+        left: 10px;
+        width: 81%;
       }
     }
     .slider_detail_product {
-      width: 53%;
+      width: 55%;
       text-align: start;
       .slider_name-Product {
         height: 160px;
@@ -29,9 +30,7 @@
         line-height: 80px;
         position: relative;
         margin-bottom: 24px;
-        letter-spacing: 0.02em;
         margin-top: 56px;
-        width: 85%;
 
         ::before {
           position: absolute;
@@ -102,7 +101,7 @@
     }
     .preven_next {
       position: absolute;
-      bottom: -27px;
+      bottom: -25px;
       right: 30px;
       .preven {
         background-color: #fff0;

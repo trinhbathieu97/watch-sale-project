@@ -15,13 +15,15 @@ const Slider = () => {
         </div>
         <div className="slider_detail_product">
           <div className="slider_name-Product">
-            <div>WAY KAMBAS MINI EBONY</div>
+            <div>
+              WAY KAMBAS <br /> MINI EBONY
+            </div>
           </div>
           <div className="slider_product-description">
             <p>
-              MATOA Way Kambas - This wood is chosen to represent the Sumatran
-              Rhino's skin which is designed with an overlap effect on its strap
-              to represent Rhino's skin.
+              MATOA Way Kambas - This wood is chosen to represent the
+              <br /> Sumatran Rhino's skin which is designed with an overlap
+              effect on its <br /> strap to represent Rhino's skin.
             </p>
           </div>
           <div className="slider_product-Discover">Discover</div>

@@ -54,7 +54,9 @@ const Footer = () => {
               Jawa Barat, Indonesia 40152
             </p>
             <div className="ContactInfo_list-Address">Office Hour</div>
-            <p>Monday - Sunday 10.00 - 18.00</p>
+            <p>
+              Monday - Sunday <br /> 10.00 - 18.00
+            </p>
           </div>
 
           <div className="ContactInfo_list-item">
